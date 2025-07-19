@@ -20,7 +20,9 @@ int get_player_throw() {
 
         if (strcmp(buffer, throws[i]) == 0) {
 
-            printf("throw = %s, indx = %d\n", throws[i], i);
+            //printf("throw = %s, indx = %d\n", throws[i], i);
+
+            return i;
         }
     }
     
